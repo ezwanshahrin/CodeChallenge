@@ -71,7 +71,7 @@ if(isset($_POST["submit"])) {
 } elseif(isset($_POST["download"])) {
 
  if(!empty($_POST["input"])) {
-$obj->download(str_split($_POST["input"]));
+$obj->download(explode(" ", $_POST["input"]));
  } else {
   $obj->display_error();
  }
