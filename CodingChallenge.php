@@ -6,7 +6,7 @@ Class CodingChallenge {
 
   echo '
   <h2>Code Challenge</h2>
-  <form action="'.$SERVER['PHP_SELF'].'" method="post">
+  <form action="/" method="post">
    <label>Your Input : </label>
    <input type="text" name="input" placeholder="Insert anything here.." required>
    <input type="submit" value="Submit" name="submit">
@@ -32,7 +32,7 @@ Class CodingChallenge {
   echo '
   Uppercase : '.$str_uc.'<br>
   Alternate-Casing : '.$alt_case.'<br>
-  <form action="'.$SERVER['PHP_SELF'].'" method="post">
+  <form action="/" method="post">
    <input type="hidden" name="input" required readonly value="'.$str.'">
    <input type="submit" value="Download" name="download">
   </form>';
