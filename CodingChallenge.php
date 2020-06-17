@@ -53,7 +53,7 @@ Class CodingChallenge {
  public function display_error() {
 
   echo 'Error! <br>';
-  echo '<a href="'.$SERVER['PHP_SELF'].'"><button type="button">Back</button></a>';
+  echo '<a href="/"><button type="button">Back</button></a>';
  }
  
 }
